@@ -1,0 +1,44 @@
+# Documentation
+
+    1. Clean code examples in my code are as follows
+        - Example 1: Meaningful Variable Names
+           in the `GameStoreTest.java` file, meaningful variable names are used to improve 
+           readability and maintainability. For instance, the variable `store` clearly indicates 
+           that it represents an instance of the `GameStore` class.
+           
+
+        -Example 2: Single Responsiblity Principle
+            Each method has a single responsiblity For example the AddGameToCart method 
+            in resposible for only adding a game to the cart
+
+        -Example 3: Descriptive Test Methods
+            Test methods in the code are named more Descriptively to indicate what they are testing, 
+            to make it easier to understand the purpose on first glance
+
+    2. Project overview 
+        The GameStoreSystem is a project of a basic game store application that allows to do 3 functions,
+         add games to cart, calculate the total price, and checkout. The project includes unit test to ensure 
+         the functionality works as expected. 
+            
+            How it works:
+                Adding games to cart: Users can add games to thier cart by calling the addGameToCart method
+                calculating Total: The total price of the games in the cart is calculated using the calculateTotal method
+                Checkout: The checkout method clears the cart after the transation
+
+            Test cases:
+                TestAddGameToCart: Verifies that a game is added to the cart 
+                TestCartTotalCalculation: Ensures the total price calculation is right
+                TestCheckoutClearsCart: Confirms that the cart is emplty after checkout
+    
+    3. Dependencies
+        Needed Dependencies
+            jUnit 5: Used for writing and running unit tests.
+                - Group ID: org.junit.jupiter
+                - Artifact IDs: junit-jupiter-api, junit-jupiter-engine
+                - Version: 5.9.2
+         
+         Source
+            https://mvnrepository.com/artifact/junit/junit
+        
+    4. Problems Encountered
+        Trying to run the mvn clean instal, forgot to cd into demo but after a while got it right.
